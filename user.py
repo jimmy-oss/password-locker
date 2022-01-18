@@ -15,3 +15,11 @@ class User:
         self.email = email
 # always remember to import e.g from user import User
 # Init method up here
+    user_list = []  # Empty user list
+    # Init method up here
+
+    def save_contact(self):
+        '''
+        save_contact method saves contact objects into  the user_list
+        '''
+        User.user_list.append(self)
