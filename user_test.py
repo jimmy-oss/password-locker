@@ -6,7 +6,6 @@ class TestUser(unittest.TestCase):
 
     '''
     Test class that defines test cases for the contact class behaviours.
-
     Args:
         unittest.TestCase: TestCase class that helps in creating test cases
     '''
@@ -63,8 +62,22 @@ class TestUser(unittest.TestCase):
                             "jimmy@ms.com")  # new contact
         test_contact.save_contact()
 
+        # Deleting a contact object
         self.new_contact.delete_contact()  # Deleting a contact object
         self.assertEqual(len(User.user_list), 1)
+
+    def test_find_contact_by_number(self):
+        '''
+         test to check if we can find the user  by phone number and display information
+        '''
+
+        self.new_contact.save_contact()
+        test_contact = User("Jimmy", "Jammie", "0711223344",
+                            "jimmy@ms.com")  # new contact
+        test_contact.save_contact()
+
+        found_contact = User.find_by_number("0711223344")
+        self.assertEqual(found_contact.email, test_contact.email)
 
 
 if __name__ == '__main__':
