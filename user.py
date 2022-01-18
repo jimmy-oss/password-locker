@@ -1,3 +1,6 @@
+import pyperclip
+
+
 class User:
     """
     Class that generates new instances of users.
@@ -45,3 +48,29 @@ class User:
         for User in cls.user_list:
             if User.phone_number == number:
                 return User
+
+    @classmethod
+    def contact_exist(cls, number):
+        '''
+        Method that checks if a contact exists from the contact list.
+        Args:
+            number: Phone number to search if it exists
+        Returns :
+            Boolean: True or false depending if the contact exists
+        '''
+        for User in cls.user_list:
+            if User.phone_number == number:
+                return True
+        return False
+
+    @classmethod
+    def display_contacts(cls):
+        '''
+        method that returns the contact list
+        '''
+        return cls.user_list
+
+    @classmethod
+    def copy_email(cls, number):
+        contact_found = User.find_by_number(number)
+        pyperclip.copy(contact_found.email)
