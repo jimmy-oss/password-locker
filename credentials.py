@@ -78,5 +78,3 @@ class Credentials:
         random_alphanumeric = string.ascii_letters + string.digits
         password = ''.join((random.choice(random_alphanumeric) for i in range(passwordLength)))
         return password
-
-    

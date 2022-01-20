@@ -367,7 +367,7 @@ def main():
                                     break
                                 elif delete_account == 'N':
                                     print(
-                                        "\nPhew! Your account is still active.\n")
+                                        "\nPhew😌! Your account is still active.\n")
                                     break
                                 else:
                                     print("You did not select a valid option")
