@@ -1,6 +1,9 @@
 # password-locker &#10024;
 The Password locker is a App that helps to save passwords with usernames and also which it generates new passwords 
 
+![Screen Shot 2022-01-21 at 14 33 06](https://user-images.githubusercontent.com/62022158/150523245-cd490393-e0b0-4909-af8a-56e88d7150b3.png)
+
+
 # DESCRIPTION &#127800;
 
 The application above helps the user's to save passwords with usernames and also it generates new passwords.
