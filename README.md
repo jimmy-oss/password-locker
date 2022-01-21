@@ -3,6 +3,10 @@ The Password locker is a App that helps to save passwords with usernames and als
 
 ![Screen Shot 2022-01-21 at 14 33 06](https://user-images.githubusercontent.com/62022158/150523245-cd490393-e0b0-4909-af8a-56e88d7150b3.png)
 
+The password locker when the user is creating a new account
+
+![Screen Shot 2022-01-21 at 14 33 35](https://user-images.githubusercontent.com/62022158/150523428-9be38810-34ae-4abe-a251-ee482829dd1e.png)
+
 
 # DESCRIPTION &#127800;
 
