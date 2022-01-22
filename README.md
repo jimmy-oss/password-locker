@@ -24,12 +24,12 @@ To use the application you should have python 3.8 installed in your machine.
 <ul>
 <li>Clone this repo using git clone or download the ZIP file of the code</li>
 <li> Open the terminal,run cd command into to the project directory and run the following command "python3 run.py"</li>
-      <li>launch the password locker and enjoy.</li>
+      <li>launch the password locker and enjoy🤗</li>
        </ul>
   
   # TECHNOLOGIES USED &#10024;
    I have used: 
          <li>Python3</li>
          
- # THE LICENSE &#127800;
+ # THE LICENSE👨🏾‍⚖️
 The website is under <b>Mit license.</b>
