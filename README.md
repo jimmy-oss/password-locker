@@ -20,7 +20,7 @@ you want to use instead of having the application generate a password for you.
 > Jimmy-oss
 
 # INSTALLATION PROCESS &#127800;
-To use the application you should have python 3.8 installed in your machine.
+To use the application you should have python3 installed in your machine.
 <ul>
 <li>Clone this repo using git clone or download the ZIP file of the code</li>
 <li> Open the terminal,run cd command into to the project directory and run the following command "python3 run.py"</li>
