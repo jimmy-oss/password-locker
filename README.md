@@ -19,50 +19,13 @@ you want to use instead of having the application generate a password for you.
 
 > Jimmy-oss
 
-# BEHAVIOUR DRIVEN DEVELOPMENT &#127800;
-
-<h2>The Application Behaviour &#10024;</h2>
-      <p w3-class="large">
-        </div>
- <div class="responsive card-4">   
-     <table class="table stripped bordered">
-       <thread>
-          <tr class="theme">
-  <th>BEHAVIOUR OF THE APPLICATION</th>
-  <th>INPUTS WHEN ONE CHOOSES TO ENTER CORRECT CREDETIALS</th> 
-  <th>INPUTS WHEN ONE CHOOSES TO ENTER WRONG CREDETIALS</th>
- <th>OUTPUT IT SHOULD RETURN</th>
-       </tr>
-        </thread>
-             <thead>
-                  <tbody>
-                        <tr>
-                 <td></td>
-                <td></td>
-                <td></td>
-                <td>true</td>
-                  </tr>
-               <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-            <td>true</td>
-               </tr>
-            <tr>
-   <td></td>
-            <td></td>
-             <td></td>
-             <td>true</td>
-               </tr>
-            <tr>
-   <td> </td>
-   <td></td>
-   <td> </td>
-          <td> False</td>
-              </tr>
-                 </tbody>
-                        </thead>
-                              </table>
+# INSTALLATION PROCESS &#127800;
+To use the application you should have python 3.8 installed in your machine.
+<ul>
+<li>Clone this repo using git clone or download the ZIP file of the code</li>
+<li> Open the terminal,run cd command into to the project directory and run the following command "python3 run.py"</li>
+      <li>launch the password locker and enjoy.</li>
+       </ul>
   
   # TECHNOLOGIES USED &#10024;
    I have used: 
